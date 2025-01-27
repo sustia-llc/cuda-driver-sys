@@ -2,9 +2,9 @@
 name = "cuda-driver-sys"
 version = "0.3.2"
 edition = "2021"
-authors = ["YangBo <bo.yang@smail.nju.edu.cn>"]
+authors = ["YangBo <bo.yang@smail.nju.edu.cn>" "tsondru"]
 description = "Rust binding to CUDA Driver APIs"
-repository = "https://github.com/yanghaku/cuda-driver-sys"
+repository = "https://github.com/sustia-llc/cuda-driver-sys"
 keywords = ["GPGPU", "CUDA", "ffi"]
 license = "Apache-2.0"
 readme = "./README.md"
@@ -12,7 +12,7 @@ categories = ["external-ffi-bindings"]
 
 build = "build.rs"
 
-links = "cuda-122"
+links = "cuda-126"
 
 [features]
 cuda-static-link = []
